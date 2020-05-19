@@ -1,0 +1,11 @@
+.sss{
+    color:red;
+}
+table{
+   border-collapse: collapse
+   border;
+}
+.container{
+    display: flex;
+    flex-direction: column-reverse;
+}
