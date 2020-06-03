@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .tooltip {
+            display: inline-block;
+        }
+
+        .tooltiptext {
+            visibility: hidden;
+        }
+
+        .tooltip:hover .tooltiptext {
+            visibility: visible;
+        }
+
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        .dropdown-content {
+            display: none;
+            background-color: lavenderblush;
+        }
+    </style>
+</head>
+
+<body>
+    <p>Tooltips: A tooltip is often used to specify extra information about something when the user moves the mouse
+        pointer over an element
+    <div class="tooltip" style="color: red;">Hover over me
+        <span class="tooltiptext"> Hello World
+
+        </span>
+    </div>
+    </p>
+    <hr />
+    <div>Pagination: การแบ่ง page ออกเป็นหลายหน้า
+        <div>
+            <a href="#">1</a>
+            <a href="#">2</a>
+            <a href="#">3</a>
+            <a href="#">4</a>
+        </div>
+        <hr />
+    </div>
+    <div>Navigation Bar: List of links
+        <ul>
+            <li><a href="https://www.google.co.th/">Google</a></li>
+            <li><a href="https://www.apple.com/th/">Apple</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#about">About</a></li>
+        </ul>
+    </div>
+    <hr />
+    <p>dropdown: Create a dropdown box that appears when the user moves the mouse over an element.</p>
+    <div class="dropdown">
+        <span>Mouse over me</span>
+        <div class="dropdown-content">
+            <p>Hello World 1</p>
+            <p>Hello World 2</p>
+            
+        </div>
+    </div><hr/>
+<h2>ตัวอย่าง web ข่าว: https://www.thairath.co.th/news</h2>
+<div>เหมาะกับการวางโครงสร้างแบบ grid เพราะ มีการนำเสนอข่าวลักษณะตาราง</div>
+<br>
+<h2>ตัวอย่าง web ชอปปิ้ง: https://shopee.co.th/</h2>
+<div>เหมาะกับการวางโครงสร้างแบบ grid เพราะ รายการสินค้าถูกตัดเรียงลักษณะตาราง ซ้ำๆกัน</div> 
+<br>   
+<h2>ตัวอย่าง web เรียน: https://www.bbc.co.uk/learningenglish/english/course/eiam</h2>
+<div>เหมาะกับการวางโครงสร้างแบบ flex เพราะ มีโครงสร้างลักษณะ column เรียงลงมา</div>
+
+</body>
+
+</html>
